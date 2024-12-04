@@ -1,0 +1,1066 @@
+body{
+    background-color: black;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.background1{
+    background-image: url(images/pilgrimsway.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.hunter img{
+    width: 40%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+
+@keyframes hunterjumpscare{
+
+    from{
+        translate: 150vw 0;
+        scale: 200% 1;
+        }
+    
+        to{
+        translate: 0 0;
+        scale: 100%;
+        }
+    
+}
+
+
+.hunter img{
+
+    animation-name: hunterjumpscare;
+    animation-duration: 2s;
+    
+}
+
+
+.title img{
+    width: 60%;
+    height: auto;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    float: left;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    float: left;
+    margin: 50px;
+    margin-bottom: 0px;
+}
+
+.hunter2 img{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+
+.Intro{
+    width: 60%;
+    height: auto;
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.background2{
+    background-image: url(images/Dirtmouth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 550px;
+    margin-bottom: 0px;
+}
+
+.dirtmouthtitle img{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+}
+
+
+.dirtmouthtitle{
+    animation: dirtmouthfadein linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 70%;
+}
+
+@keyframes dirtmouthfadein{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.yappinaboutdirtmouth{
+    width: 40%;
+    height: auto;
+    float: left;
+    margin: 50px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.sly img{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-top: 22px;
+    margin-left: 60px;
+}
+
+.iselda img{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.slysshop img{
+    width: 25%;
+    height: auto;
+    margin-right: 300px;
+    margin-left: 30px;
+    float: left;
+}
+
+.slysstock img{
+    width: 25%;
+    height: auto;
+    margin-right: 300px;
+    margin-left: 30px;
+    margin-top: -113px;
+    opacity: 0;
+}
+
+.slysshop{
+    position: relative;
+}
+  
+  .slysstock{
+    display: none;
+    width: 25%;
+    height: auto;
+    margin-right: 300px;
+    margin-left: 30px;
+  }
+  
+  .slylabel{
+    width: 25%;
+    height: auto;
+    margin-right: 300px;
+    margin-left: 30px;
+  }
+  
+  .slysshop:hover .slysstock{
+    display: block;
+  }
+  
+  .slysshop:hover .slylabel{
+    display: none;
+}
+
+.iseldasshop img{
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-top: -112px;
+    margin-right: 50px;
+}
+
+.iseldasstock img{
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-top: -124px;
+    margin-right: 50px;
+    opacity: 0;
+}
+
+.iseldasshop{
+    position: relative;
+}
+  
+  .iseldasstock{
+    display: none;
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-top: -112px;
+    margin-right: 50px;
+  }
+  
+  .iseldalabel{
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-top: -112px;
+    margin-right: 50px;
+  }
+  
+  .iseldasshop:hover .iseldasstock{
+    display: block;
+  }
+  
+  .iseldasshop:hover .iseldalabel{
+    display: none;
+}
+
+.background3{
+    background-image: url(images/CrossroadsBG.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 600px;
+    margin-bottom: 0px;
+}
+
+.crossroadstitle img{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+}
+
+.crossroadstitle{
+    animation: crossroadsfadein linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 70%;
+}
+
+@keyframes crossroadsfadein{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.background4{
+    background-image: url(images/CrossroadsBG2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 125%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.walkcycle{
+    width: 100%;
+    max-width: 1536p;
+    height: 700px;
+    margin-top: 10px;
+    margin-inline: auto;
+    overflow: hidden;
+    mask-image: none;
+}
+
+@keyframes scrollLeft{
+    
+    to{
+        left: -550px;
+    }
+
+}
+
+
+.husks{
+
+    margin-top: 14px;
+    width: 200;
+    height: 100px;
+    left: max(calc(200px * 1), 100%);
+    position: absolute;
+    animation-name: scrollLeft;
+    animation-duration: 27s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+.husks img{
+    width: 450px;
+    height: auto;
+    margin-top: -8px;
+}
+
+.yappinaboutcrossroads{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin: 50px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.crossroadsenemies1 img{
+    float: right;
+    width: 36%;
+    height: auto;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.crawlid{
+    position: relative;
+}
+  
+  .crawlidwalk{
+    display: none;
+    width: 7%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 1027px;
+  }
+  
+  .crawlididle{
+    width: 7%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 345px;
+  }
+  
+  .crawlid:hover .crawlidwalk{
+    display: block;
+  }
+  
+  .crawlid:hover .crawlididle{
+    display: none;
+}
+
+.crawlidtext{
+    float: right;
+    margin-top: 60px;
+    margin-left: 5px;
+    margin-right: 100px;
+}
+
+.tiktik{
+    position: relative;
+}
+  
+  .tiktikwalk{
+    display: none;
+    width: 6%;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 1027px;
+  }
+  
+  .tiktikidle{
+    width: 6%;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 345px;
+  }
+  
+  .tiktik:hover .tiktikwalk{
+    display: block;
+  }
+  
+  .tiktik:hover .tiktikidle{
+    display: none;
+}
+
+.tiktiktext{
+    float: right;
+    margin-top: 165px;
+    margin-left: 90px;
+    margin-right: -180px;
+}
+
+.vengefly{
+    position: relative;
+}
+  
+  .vengeflyfly{
+    display: none;
+    width: 8%;
+    height: auto;
+    margin-top: 240px;
+    margin-left: 1027px;
+  }
+  
+  .vengeflyidle{
+    width: 8%;
+    height: auto;
+    margin-top: 240px;
+    margin-left: 345px;
+  }
+  
+  .vengefly:hover .vengeflyfly{
+    display: block;
+  }
+  
+  .vengefly:hover .vengeflyidle{
+    display: none;
+}
+
+.vengeflytext{
+    float: right;
+    margin-top: 50px;
+    margin-left: 220px;
+    margin-right: 95px;
+}
+
+.gruzzer{
+    position: relative;
+}
+  
+  .gruzzerfly{
+    display: none;
+    width: 7%;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 1142px;
+  }
+  
+  .gruzzeridle{
+    width: 7%;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 460px;
+  }
+  
+  .gruzzer:hover .gruzzerfly{
+    display: block;
+  }
+  
+  .gruzzer:hover .gruzzeridle{
+    display: none;
+}
+
+.gruzzertext{
+    float: right;
+    margin-top: -240px;
+    margin-right: -20px;
+}
+
+.aspid{
+    position: relative;
+}
+  
+  .aspidspit{
+    display: none;
+    width: 8%;
+    height: auto;
+    margin-top: 230px;
+    margin-left: 1142px;
+  }
+  
+  .aspididle{
+    width: 8%;
+    height: auto;
+    margin-top: 230px;
+    margin-left: 460px;
+  }
+  
+  .aspid:hover .aspidspit{
+    display: block;
+  }
+  
+  .aspid:hover .aspididle{
+    display: none;
+}
+
+.aspidtext1{
+    float: right;
+    margin-top: -100px;
+    margin-right: -6px;
+}
+
+.aspidtext2{
+    float: right;
+    margin-top: -77px;
+    margin-right: -20px;
+}
+
+.crossroadsenemies2 img{
+    float: right;
+    width: 36%;
+    height: auto;
+    margin-left: 220px;
+    margin-top: 370px;
+}
+
+.crossroadsinfo img{
+    position: absolute;
+}
+
+.guardian{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin-left: 670px;
+    margin-top: -60px;
+}
+  
+  .huskguardattack{
+    display: none;
+    width: 35%;
+    height: auto;
+    margin-top: -350px;
+    margin-left: -50px;
+  }
+  
+  .huskguardidle{
+    width: 35%;
+    height: auto;
+    margin-top: -350px;
+    margin-left: -50px;
+  }
+  
+  .guardian:hover .huskguardattack{
+    display: block;
+  }
+  
+  .guardian:hover .huskguardidle{
+    display: none;
+}
+
+.huskguardtext{
+    float: right;
+    margin-top: -360px;
+    margin-right: 340px;
+}
+
+
+
+.background5{
+    background-image: url(images/GreenpathBG.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 125%;
+    margin-top: 360px;
+    margin-bottom: 0px;
+}
+
+.greenpathtitle img{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+}
+
+.greenpathtitle{
+    animation: greenpathfadein linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 70%;
+}
+
+@keyframes greenpathfadein{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.background6{
+    background-image: url(images/Greenpath_Northern_Area.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 125%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.yappinaboutgreenpath{
+    width: 58%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.mosscreep{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .moss{
+    display: none;
+    transform: rotate(90deg);
+    width: auto;
+    height: 120px;
+    margin-top: 300px;
+    margin-left: -955px;
+  }
+  
+  .bush{
+    transform: rotate(90deg);
+    width: auto;
+    height: 120px;
+    margin-top: 300px;
+    margin-left: -955px;
+  }
+  
+  .mosscreep:hover .moss{
+    display: block;
+  }
+  
+  .mosscreep:hover .bush{
+    display: none;
+}
+
+.mosskin img{
+    width: 7%;
+    height: auto;
+    float: right;
+    margin-right: 370px;
+    margin-top: 72px;
+}
+
+.infectedmosskin img{
+    width: 8%;
+    height: auto;
+    float: right;
+    margin-right: -200px;
+    margin-top: 55px;
+}
+
+.squit img{
+    width: 8%;
+    height: auto;
+    float: right;
+    margin-right: -400px;
+    margin-top: -80px;
+}
+
+.obble img{
+    width: 9%;
+    height: auto;
+    float: left;
+    margin-left: 120px;
+    margin-top: -320px;
+}
+
+.fooleater{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .fooleaterchomp{
+    display: none;
+    width: auto;
+    height: 260px;
+    margin-top: -500px;
+    margin-left: 944px;
+  }
+  
+  .fooleateridle{
+    width: auto;
+    height: 260px;
+    margin-top: -500px;
+    margin-left: 944px;
+  }
+  
+  .fooleater:hover .fooleaterchomp{
+    display: block;
+  }
+  
+  .fooleater:hover .fooleateridle{
+    display: none;
+}
+
+.mossknight{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .mossfight{
+    display: none;
+    width: 35%;
+    height: auto;
+    margin-top: -230px;
+    margin-left: 500px;
+  }
+  
+  .mosshide{
+    width: 35%;
+    height: auto;
+    margin-top: -230px;
+    margin-left: 500px;
+  }
+  
+  .mossknight:hover .mossfight{
+    display: block;
+  }
+  
+  .mossknight:hover .mosshide{
+    display: none;
+}
+
+
+
+.background7{
+    background-image: url(images/Fog_Canyon_Husk_Guards.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 125%;
+    margin-top: 360px;
+    margin-bottom: 0px;
+}
+
+.fogcanyontitle img{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+}
+
+.fogcanyontitle{
+    animation: fogcanyonfadein linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 70%;
+}
+
+@keyframes fogcanyonfadein{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.yappinaboutfogcanyon{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.ooma img{
+    width: 8%;
+    height: auto;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    margin-right: 5300px;
+    margin-top: -320px;
+}
+
+.uoma img{
+    width: 10%;
+    height: auto;
+    float: right;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    margin-top: -300px;
+}
+
+
+
+.background8{
+    background-image: url(images/Fungal_Core_West_Area.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 125%;
+    margin-top: 360px;
+    margin-bottom: 0px;
+}
+
+.fungalwastestitle img{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+}
+
+.fungalwastestitle{
+    animation: fungalwastesfadein linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 70%;
+}
+
+@keyframes fungalwastesfadein{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.background9{
+    background-image: url(images/Fungal_Wastes_Mushrooms.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 125%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.yappinaboutfungalwastes{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.fungling img{
+    width: 8%;
+    height: auto;
+    margin-right: 1000px;
+    margin-top: -130px;
+    margin-left: 70px;
+}
+
+.fungoon img{
+    width: 13%;
+    height: auto;
+    float: right;
+    margin-right: 68px;
+    margin-top: -240px;
+}
+
+.fungling2 img{
+    width: 8%;
+    height: auto;
+    margin-right: 1000px;
+    margin-top: -250px;
+    margin-left: 150px;
+}
+
+.shrumalwarrior{
+    position: relative;
+  }
+  
+  .wah{
+    display: none;
+    width: 14%;
+    height: auto;
+    float: right;
+    margin-top: 136px;
+    margin-right: 140px;
+  }
+  
+  .mushroom{
+    width: 14%;
+    height: auto;
+    float: right;
+    margin-top: 136px;
+    margin-right: 140px;
+  }
+  
+  .shrumalwarrior:hover .wah{
+    display: block;
+  }
+  
+  .shrumalwarrior:hover .mushroom{
+    display: none;
+}
+
+.shrumalogre{
+    position: relative;
+  }
+  
+  .braindamage{
+    display: none;
+    width: 23%;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+    margin-left: 56px;
+  }
+  
+  .bigmushroom{
+    width: 23%;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+    margin-left: 56px;
+  }
+  
+  .shrumalogre:hover .braindamage{
+    display: block;
+  }
+  
+  .shrumalogre:hover .bigmushroom{
+    display: none;
+}
+
+
+.walkin{
+    width: 100%;
+    max-width: 1536p;
+    height: 700px;
+    margin-top: 10px;
+    margin-inline: auto;
+    overflow: hidden;
+    mask-image: none;
+}
+
+@keyframes ambloomwalk{
+    
+    to{
+        left: -900px;
+    }
+
+}
+
+
+.ambloom{
+
+    margin-top: 14px;
+    width: 200;
+    height: 100px;
+    left: max(calc(200px * 1), 100%);
+    position: absolute;
+    animation-name: ambloomwalk;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+.ambloom img{
+    width: 100px;
+    height: auto;
+    margin-top: -106px;
+}
+
+
+
+.background10{
+    background-image: url(images/City_of_Tears_Lower_East_Area.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 125%;
+    margin-top: 360px;
+    margin-bottom: 0px;
+}
+
+.cityoftearstitle img{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+}
+
+.cityoftearstitle{
+    animation: cityoftearsfadein linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 70%;
+}
+
+@keyframes cityoftearsfadein{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.background11{
+    background-image: url(images/City_of_Tears_Fountain_Square.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 125%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.yappinaboutcityoftears{
+    text-align: center;
+    width: 94%;
+    margin-left: 3%;
+    margin-top: -200px;
+}
+
+
+
+
+.grubbackground{
+    background-image: url(images/Forgotten_Crossroads_Grubfather.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.grubinajar{
+    position: relative;
+  }
+  
+  .grubcelebration{
+    display: none;
+    width: 27%;
+    height: auto;
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+  }
+  
+  .grubexcitement{
+    width: 27%;
+    height: auto;
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+  }
+  
+  .grubinajar:hover .grubcelebration{
+    display: block;
+  }
+  
+  .grubinajar:hover .grubexcitement{
+    display: none;
+}
+
+.aboutme{
+    width: 60%;
+    height: auto;
+    float: left;
+    margin-top: 200px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50px;
+}
+
+.h3{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
